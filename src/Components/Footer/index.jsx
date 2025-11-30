@@ -46,11 +46,12 @@ const Dev = styled.p`
 `;
 
 const Footer = () => {  
+  const currentYear = new Date().getFullYear();
   return (
     <FooterContainer>
       <FooterContent>
           <Copyright>
-            &copy; 2024 allansf29. Todos os direitos reservados.
+            &copy; {currentYear} Allansf29. Todos os direitos reservados.
           </Copyright>
           <Image>
             Imagens utilizadas apenas para exemplos, retirada do FREEPIK.
